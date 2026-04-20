@@ -1,0 +1,13 @@
+langchain
+langgraph
+chromadb
+openai
+streamlit
+pymupdf
+python-docx
+pdfplumber
+pandas
+flask
+flask-session
+dateparser
+pypdf2
