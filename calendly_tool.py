@@ -112,8 +112,8 @@ if __name__ == "__main__":
 
     result = schedule_calendly_meeting(
         event_type_uri=EVENT_TYPE_URI,
-        name="Shivank Shekhar",
-        email="ssshivank120@gmail.com",
+        name="Satyank Shekhar",
+        email="satyank.shekhar.11@gmail.com",
         start_time="2026-02-04T09:30:00Z"
     )
 
