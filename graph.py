@@ -18,7 +18,7 @@ import pytz
 from chromadb import PersistentClient
 chroma_client = PersistentClient(path="db")
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API_KEY")
 
 
 
