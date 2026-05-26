@@ -61,7 +61,7 @@ def store_embeddings_in_chromadb(chunks):
             embeddings=[emb]
         )
 
-    print(f"✅ Stored {len(chunks)} chunks in ChromaDB.")
+    print(f" Stored {len(chunks)} chunks in ChromaDB.")
 
 
 def generate_with_gpt(prompt):
