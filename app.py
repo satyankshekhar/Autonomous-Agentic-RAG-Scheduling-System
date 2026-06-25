@@ -153,7 +153,7 @@ def admission_message():
         }
         lead_res = lead_gen_node(lead_state)
         session["lead_generated"] = True
-        print("✅ Lead generated:", lead_res)
+        print(" Lead generated:", lead_res)
         session.clear()
 
     return jsonify({"reply": clean_reply})
