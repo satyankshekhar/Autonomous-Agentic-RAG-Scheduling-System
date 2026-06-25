@@ -4,11 +4,6 @@ An autonomous, agentic AI system for college admissions, built with **Flask**, *
 
 ---
 
-## 📸 Demo
-
-> _Add a screenshot or screen recording of the chat UI here._
-
----
 
 ## ✨ Features
 
