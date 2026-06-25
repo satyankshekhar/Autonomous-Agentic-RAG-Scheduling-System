@@ -250,12 +250,12 @@ def scheduler_node(
 
     if result.get("success"):
         response = (
-            f"✅ Your call has been scheduled successfully!\n\n"
-            f"📅 Time: {scheduler_slots['start_time']}\n"
-            f"📧 Confirmation sent to: {scheduler_slots['email']}"
+            f" Your call has been scheduled successfully!\n\n"
+            f" Time: {scheduler_slots['start_time']}\n"
+            f" Confirmation sent to: {scheduler_slots['email']}"
         )
     else:
-        response = f"❌ I couldn't schedule the call. {result.get('message', '')}"
+        response = f" I couldn't schedule the call. {result.get('message', '')}"
 
     return {
         "response": response,
